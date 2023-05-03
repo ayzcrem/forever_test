@@ -1,0 +1,60 @@
+* {
+    font-family: monospace;
+    color: #FFF;
+    }
+    
+    body{
+        background-color: #000;
+    }
+    
+    a{
+        color: black;
+        text-decoration: none;
+        background-color: #06D500;
+        filter: drop-shadow(5px 5px 2px #FF00EC);
+    }
+    
+    a:hover{
+        color: #FFF;
+        background-color: #7400FF;
+        filter: drop-shadow(5px 5px 2px yellow);
+    }
+    
+    .container{
+        padding-top: 100px;
+        padding-bottom: 50px;
+        margin: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    #title{
+        color: #FFF;
+        font-size: 100px;
+        filter: drop-shadow(8px 8px 2px #ff0000);
+        line-height: 80px;
+    }
+
+    #start{
+        padding: 100px;
+        font-size: 20px;
+    }
+
+    #loading{
+        font-size: 20px;
+    }
+
+    #wasd{
+        position: fixed;
+        left: 2vw;
+        top: 2vh;
+        font-size: 20px;
+        color: rgb(143, 143, 143);
+    }
+    #washere{
+        font-size: 12px;
+        color:#FFF;
+        filter: drop-shadow(2px 2px 2px #ff0000);
+    }
